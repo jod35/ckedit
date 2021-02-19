@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="form">
+    <form action="/edit/{{post.id}}" method="POST">
+        <h3> Edit Post</h3>
+        <br>
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" class="form-control" value="post.title">
+        <br>
+        <br>
+        <label for="body">Body</label>
+        {{ ckeditor.create(value=post.body) }}
+        <br>
+        <button class="mybtn">Save</button>
+    </form>
+   </div>
+{% endblock body %}
+    

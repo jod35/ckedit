@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.form{
+    width: 50%;
+    margin: 100px auto;
+}
+.form-control{
+    width: 100%;
+}
+.posts{
+    width: 50%;
+    margin: 100px auto;
+}
+.post{
+    width: 100%;
+    padding: 20px;
+}
